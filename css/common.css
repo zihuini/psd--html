@@ -1,0 +1,287 @@
+.public-header{
+	height: 110px;
+	background: #ffffff;
+
+}
+.public-header .header-logo{
+	margin-top:40px;
+	float: left;	
+}
+.public-header .header-logo a{
+	height: 54px;
+	width: 182px;
+	background: url("../images/logo-header.png")no-repeat;
+}
+
+.public-header .header-nav{
+
+	float: right;
+}
+.public-header .header-nav .item{
+	font-size: 14px;
+	margin-top: 47px;
+	color: red;
+	float: left;
+	margin-left: 50px;
+}
+.public-header .header-nav a{
+	color:#3b3b3b;
+}
+.public-container{
+	position: relative;
+	margin:0 auto;
+	/*background: blue;*/
+	width: 1100px;
+	margin-top: 10px;
+	
+}
+
+.index-banner{
+	position: relative;
+	background: #b3b3b3;
+
+}
+.index-banner-bg{
+	height: 570px;
+	overflow: hidden;/*去除滚动条*/
+}
+.index-banner-bg img{
+	margin: 0 auto;
+}
+
+.index-banner-text{
+	position: absolute;
+	top: 200px;
+	left: 50%;
+	margin-left: -388px;
+}
+.index-banner-text .text-logo{
+
+	background: url(../images/text-logo.png) no-repeat;
+	height: 116px;
+	width: 776px;
+}
+
+.index-banner-text .text-info{
+	text-align:center;
+	margin-top:17px;
+	color: #fff;
+}
+.index-banner-text .text-info .line{
+	display:inline-block;
+	width: 40px;
+	border-top:1px solid #fff;
+	vertical-align: middle;
+}
+.index-banner-text .text-info .txt{
+	margin: 0 26px;
+}
+
+.index-menu{
+	position: relative;
+	border-top:4px solid #f34949;
+}
+.index-menu .menu-tips{
+	position: absolute;
+	left: 50%;
+	top: 0;
+	margin-left: -78px;               /*总宽度156px，设置-78可将文本居中*/
+	width: 156px;
+	height: 75px;
+	text-align: center;
+	line-height: 65px;
+	color:#fff;
+	background: #f34949;
+	font-size: 20px;
+}
+/*画出到三角形*/
+.index-menu .menu-tips:after{
+	width: 0;
+	height: 0;
+	left: 0;
+	position: absolute;
+	content: '';
+	bottom:0;
+	border-left: 78px solid transparent;
+	border-right: 78px solid transparent;
+	border-bottom: 10px solid #FFF;
+}
+
+.index-menu .menu-list{
+	margin-top: 150px;
+	color: #555;
+	
+}
+.index-menu .menu-list ul{
+	width: 1160px;	
+}
+
+.index-menu .menu-item{
+	width: 520px;
+	margin-right: 60px;
+	margin-bottom: 56px;
+	float: left;
+}
+
+.index-menu .menu-item .title{
+	width: 228px;
+	float: left;
+	overflow: hidden;             
+	/*white-space: nowrap;内容不换行*/
+	/*text-overflow: ellipsis;当文本溢出包含元素时,显示省略符号来代表被修剪的文本。*/
+}
+.index-menu .menu-item .line{
+	width: 192px;
+	border: 1px solid #eeebeb;
+	float: left;
+	/*vertical-align: middle;*/
+	margin-top: 10px;
+}
+.index-menu .menu-item .price{
+	float:right;
+}
+.index-menu .menu-item .comment{
+	font-size: 12px;
+	color: #d8d5d5;
+	margin-top: 10px;
+}
+.index-menu .menu-more-btn {
+	width: 114px;
+	height: 32px;
+	padding-left:16px;
+	border: 1px solid #eeebeb;
+	line-height: 32px;
+	font-size: 14px;
+	color: #b7b7b7;
+	margin: 0 auto;
+}
+.index-menu .icon{
+	display:inline-block;
+	width: 11px;
+	height: 7px;
+	background: url("../images/menu-more-btn.png")no-repeat;
+}
+
+.index-panel{
+	margin-top: 100px;
+	    /* tem*/
+}
+
+.index-panel-header h3{
+	float: left;
+	font-size: 20px;
+	color: #080808;
+	margin-right: 48px;
+	font-weight: normal;
+}
+.index-panel-header .line{
+	float: left;
+	width: 	200px;
+	margin-top: 12px;
+	border-top: 1px solid #eeebeb;
+
+}
+.index-panel-header .btn-group{
+	font-size: 0;
+	float: right;
+	
+}
+ .btn-group .btn{
+	display:inline-block;
+	margin-left: 11px;
+	width: 9px;
+	height: 9px;
+	border-radius: 50%;
+	background:#d8d5d5;
+}
+.btn-group .active{
+	background:#b0abab;
+}
+.index-panel-body{
+	margin-top: 70px;
+}
+
+.index-food-list{
+	overflow: hidden;
+
+}
+.index-food-list ul{
+	width: 1160px;
+}
+.food-item{
+	float: left;
+	width: 230px;
+	margin-right: 60px;
+}
+
+.index-food-list .food-item .banner{
+	margin-bottom: 30px;
+	height: 202px;
+}
+.food-item .name{
+	color: #555;
+	margin-bottom: 10px;
+}
+.food-item .price{
+	float: right;
+}
+.food-item .star-btn{
+	font-size: 0;
+}
+.food-item .star{
+	display: inline-block;
+	width: 12px;
+	height: 13px;
+	margin-right: 5px;
+	background-image: url("../images/star.png");
+	background-repeat: no-repeat;
+}
+.nostar{
+	background-position: 0 -12px;
+}
+
+.index-pics{
+	height: 380px;
+	overflow: hidden;
+}
+
+.pic-col{
+	float: left;
+}
+
+index-pics .pic-col-m{
+	width: 353px;
+}
+index-pics .pic-col-s{
+	width: 287px;
+}
+index-pics .pic-col-l{
+	width: 460px;
+}
+
+
+
+.public-footer{
+	padding-top: 100px;
+	height: 200px;
+	background: #3b3b3b;
+}
+.public-footer .footer-col{
+	/*margin-top: 100px;*/
+	float: left;
+	width: 230px;
+	margin-right: 60px;
+	color: #656565;
+	font-size: 16px;
+	line-height: 1.8; 
+}
+/*上面设置会导致重叠，因此有以下的设置，可去除重叠*/
+.public-footer .footer-col:last-child{
+	margin-right: 0px;
+}
+.public-footer .footer-col .footer-logo{
+	background: url("../images/footer-logo.png")no-repeat;
+	width: 182px;
+	height: 55px;
+	margin-top: -10px;
+}
